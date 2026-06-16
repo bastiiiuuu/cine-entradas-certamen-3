@@ -1,0 +1,120 @@
+body {
+  margin: 0;
+  padding: 0;
+  background: #111111;
+  color: #ffffff;
+  font-family: system-ui, -apple-system, sans-serif;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh;
+}
+
+.app-container {
+  background: #1e1e24;
+  padding: 35px;
+  border-radius: 16px;
+  box-shadow: 0 15px 35px rgba(0, 0, 0, 0.6);
+  width: 100%;
+  max-width: 420px;
+  text-align: center;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  box-sizing: border-box;
+}
+
+.encabezado h1 {
+  color: #fbbf24;
+  margin: 0 0 8px 0;
+  font-size: 32px;
+  letter-spacing: 1px;
+}
+
+.encabezado p {
+  color: #9ca3af;
+  margin: 0 0 25px 0;
+  font-style: italic;
+  font-size: 16px;
+}
+
+.input-container {
+  margin-bottom: 25px;
+  background: #2a2a35;
+  padding: 18px;
+  border-radius: 12px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 15px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+}
+
+.input-container label {
+  font-weight: 600;
+  color: #d1d5db;
+}
+
+.input-container input {
+  width: 70px;
+  padding: 10px;
+  border-radius: 8px;
+  border: 1px solid #4b5563;
+  background: #111111;
+  color: #fff;
+  font-size: 18px;
+  text-align: center;
+  outline: none;
+  transition: border-color 0.3s ease;
+}
+
+.input-container input:focus {
+  border-color: #fbbf24;
+}
+
+.tarjeta {
+  background: #2a2a35;
+  border-radius: 12px;
+  overflow: hidden;
+  padding: 20px;
+  border: 1px solid rgba(255, 255, 255, 0.05);
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.poster {
+  width: 100%;
+  max-width: 260px;
+  height: 380px;
+  object-fit: cover;
+  border-radius: 8px;
+  margin: 0 auto 20px auto;
+  box-shadow: 0 5px 15px rgba(0, 0, 0, 0.3);
+  display: block;
+}
+
+.info {
+  width: 100%;
+}
+
+.info h2 {
+  margin: 0 0 15px 0;
+  font-size: 24px;
+}
+
+.info p {
+  margin: 8px 0;
+  color: #d1d5db;
+  font-size: 15px;
+  overflow-wrap: break-word;
+}
+
+.info h3 {
+  color: #34d399;
+  margin: 20px 0 0 0;
+  font-size: 22px;
+  background: rgba(52, 211, 153, 0.1);
+  padding: 12px;
+  border-radius: 8px;
+  border: 1px solid rgba(52, 211, 153, 0.2);
+  overflow-wrap: break-word;
+}
