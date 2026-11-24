@@ -4,16 +4,16 @@ import TarjetaPelicula from './TarjetaPelicula';
 import './index.css';
 
 export default function App() {
-  const [entradas, setEntradas] = useState(0);
+  const [entradas, setEntradas] = useState('0');
 
   return (
     <div className="app-container">
       <Encabezado />
       
       <div className="input-container">
-        <label>N° de entradas:</label>
+        <label htmlFor="entradas">N° de entradas:</label>
         <input
-          type="number"
+          id="entradas" type="number" step="1"
           min="0"
           value={entradas}
           onChange={(e) => setEntradas(e.target.value)}
